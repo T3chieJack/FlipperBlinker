@@ -31,10 +31,8 @@ Parts:
 
 Wiring:
 
-```text
-Flipper PC3 ---- 220 ohm resistor ---- LED long leg
-LED short leg ------------------------ GND
-```
+<img width="128" height="487" alt="image" src="https://github.com/user-attachments/assets/87302340-82c9-46ec-a82a-0731ef8be239" />
+
 
 If the LED does not blink during Setup, check polarity first. The long leg goes toward PC3. The short leg goes toward GND.
 
