@@ -1,15 +1,12 @@
 # Flipper Blinker
 
-Flipper Blinker is a Flipper Zero external app that sends text as Morse code through an LED connected to GPIO pin PC3.
+Flipper Blinker is a Flipper Zero app that sends text as Morse code through an LED connected to GPIO pin PC3.
 
 It is meant for a simple external LED circuit:
 
-```text
-PC3 -> 220 ohm resistor -> LED anode / long leg
-LED cathode / short leg -> GND
-```
+<img width="128" height="487" alt="image" src="https://github.com/user-attachments/assets/87302340-82c9-46ec-a82a-0731ef8be239" />
 
-Use the built-in blink test in Setup and confirm.
+The app does not try to detect whether an LED is connected. Use the built-in blink test in Setup and confirm it yourself.
 
 ## Features
 
@@ -31,10 +28,8 @@ Parts:
 
 Wiring:
 
-```text
-Flipper PC3 ---- 220 ohm resistor ---- LED long leg
-LED short leg ------------------------ GND
-```
+<img width="128" height="487" alt="image" src="https://github.com/user-attachments/assets/87302340-82c9-46ec-a82a-0731ef8be239" />
+
 
 If the LED does not blink during Setup, check polarity first. The long leg goes toward PC3. The short leg goes toward GND.
 
@@ -66,7 +61,3 @@ At the default 15 WPM, one unit is 80 ms.
 - Only PC3 is exposed in the current UI.
 - The GPIO code is separated so other pins can be added later.
 - Do not connect an LED directly to PC3 without a resistor.
-
-## Credits
-
-Made by T3chieJack.
