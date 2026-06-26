@@ -5,4 +5,8 @@ App(
     entry_point="flipper_blinker_app",
     requires=["gui"],
     fap_category="GPIO",
+    fap_version="1.0",
+    fap_icon="flipper_blinker_10px.png",
+    fap_description="Transmit Morse code with an external LED on GPIO PC3",
+    fap_author="T3chieJack",
 )

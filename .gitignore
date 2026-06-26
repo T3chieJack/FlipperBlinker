@@ -1,0 +1,5 @@
+.agents/
+*.fap
+*.elf
+*.o
+build/
